@@ -46,7 +46,7 @@ jobs:
               days_since=$((MIN_DAYS))
             else
               diff=$(( (now_ts - last_ts) / 86400 ))
-              days_since=$diff
+              days_since=999
             fi
           fi
 
